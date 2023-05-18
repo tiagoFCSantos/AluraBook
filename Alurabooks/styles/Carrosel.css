@@ -1,0 +1,171 @@
+.carrosel__titulo{
+
+color: var(--Titulo-Menu);
+background-color: var(--background-header);
+font-size: 18px;
+font-weight: 700;
+justify-content: center;
+text-align: center;
+padding: 1em 0 0.5em 0;
+
+}
+
+.swiper-slide img{
+width:100%;
+
+}
+
+.swiper-button-prev, .swiper-button-next{
+display: none;
+
+}
+
+.swiper-pagination{
+position: initial;
+padding: 0.5em 0;
+
+
+}
+
+.card__descricao{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 0.7em;
+}
+
+.card__botao{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* padding: 2em 0;*/ 
+    }
+
+.descricao__titulo{
+color: var(--Titulo-Menu);
+font-size: 16px;
+font-weight: 700;
+
+}
+
+.descricao__titulo__livro{
+color: var(--background-banner);
+font-size: 18px;
+font-weight: 700;
+padding:1em 0 1em 0;
+
+}
+
+.descricao__texto{
+color:var(--cor-texto);
+font-size: 14px;
+font-weight: 400;
+
+}
+
+
+.botao__item{
+margin: 0 1em;
+
+}
+
+.botao__ancora{
+
+    background-color: var(--Titulo-Menu);
+    color: var(--background-header);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em 2.2em;
+}
+
+.card{
+
+    background-color: var(--background-header);
+    margin: 2em;
+    padding: 0.7em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.descricao__estrela{
+
+    margin-bottom: 1em;
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .carrosel__titulo{
+
+        font-size: 26px;
+        margin: 1em;
+        text-transform: uppercase;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+        
+    }
+
+    .swiper{
+            width:60%;
+            
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+                display: block;
+                padding: 5em 0;
+                
+    }
+
+    .card{
+
+        margin: 3em 20em;
+        padding: 1em 3em;
+    }
+
+    .descricao__texto{
+
+        font-size: 16px;
+        }
+
+        .botao__ancora{
+
+            padding: 1em 2.2em;
+
+        }
+}
+
+@media screen and (min-width: 1350px){
+
+    .div__carrosel{
+        display: flex;
+    }
+
+    .swiper{
+        margin-left: 15em;
+        width: 60%;
+    }
+
+    .card{
+    margin: 7em 15em 0 6em;
+    padding: 1em 1em 1em 1em;
+
+    }
+
+
+    
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        padding: 2em 0;
+        
+}
+
+.descricao__titulo{
+
+    font-size: 32px;
+}
+}
